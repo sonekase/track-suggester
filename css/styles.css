@@ -41,6 +41,29 @@ body, margin {
   background: rgba(0,0,0,0.1);
 }
 
+.intro h2 {
+  font-family: skia;
+}
+
+.intro p{
+  font-family: skia;
+  font-size: 20px;
+}
+
+.program-languages {
+  font-family: skia;
+  font-size: 20px;
+}
+
+li {
+  text-decoration: none;
+}
+
+#program-survey {
+  font-family: skia;
+  font-size: 20px;
+}
+
 
 
 
