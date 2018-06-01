@@ -91,10 +91,21 @@ button {
 
 #result-panel {
   font-family: skia;
-  font-size: 20px;
+  font-size: 25px;
+  color: #337ab7;
 }
 
+blockquote {
+  font-family: skia;
+  font-size: 20px;
+  text-align: center;
+}
 
+#end {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+}
 
 
 

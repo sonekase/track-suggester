@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("button#scroll").click(function(){
-  $('html, body').animate({scrollTop:$(document).height()}, 'slow');  
+  $('html, body').animate({scrollTop:$(document).height()}, 'slow');
   });
   $(".clickable").click(function() {
     $("#survey-showing").toggle();
@@ -31,6 +31,12 @@ $(document).ready(function() {
     }
     if(progLanguage ==="C#/.Net" && codeElement ==="design" && openErollment ==="education") {
       trackSuggester = "C#/.Net";
+    }
+    if(buildType ==="applications" && workSpace ==="freelance" && codeElement ==="functions") {
+      trackSuggester = "C#/.Net";
+    }
+    if(codeElement ==="both" && workSpace ==="startups" && buildType ==="applications" && openErollment==="Career-change") {
+      trackSuggester = "CSS/React";
     }
 
   $("#result").text(trackSuggester);
