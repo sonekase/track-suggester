@@ -13,7 +13,7 @@
       <div class="inside">
       <div class="inside-content">
         <h1><strong>Program Language</strong></h1>
-        <a class="btn" href="https://www.epicodus.com/blog/what-programming-language-should-i-learn"><strong>Track Suggester</strong></a>
+        <button class="btn btn-danger" id="scroll">Track Suggester</button>
       </div>
     </div>
     </section>
@@ -86,6 +86,7 @@
         </div>
       </div>
       <br>
+      <h3 id="tracks">Ready To Explore The Tracks?</h3>
   <div id="survey-hidden">
       <h3><span class="clickable">The Start of the Track</span></h3>
       <form id="program-survey">
@@ -151,7 +152,7 @@
 
       <div class="radio">
         <label>
-          <input type="radio" name="languages" value="Thai">
+          <input type="radio" name="languages" value="C#/.Net">
             <strong>C#/.Net</strong>
         </label>
       </div>
@@ -199,24 +200,34 @@
             <strong>Career-Change</strong>: A new frontier and passion to explore and build.
         </label>
       </div>
+      <button type="submit" class="btn">Submit!</button>
+      <div id="result-panel">
+        Your Program Track is:<span id="result"></span>
+
+      </div>
     </div>
+
+
+
+
 
     <div id="survey-showing">
       <h3><span class="clickable">Find Your Track Here</span></h3>
+
+      <br>
+
    </div>
 
 
 
-      <button type="submit" class="btn">Submit!</button>
+
+
+
+
+
+
 
     </form>
-
-
-
-    <div id="result-panel">
-      Your Program Track is:<span id="result"></span>
-
-    </div>
 
   </div>
 </body>

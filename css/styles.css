@@ -59,11 +59,37 @@ li {
   text-decoration: none;
 }
 
+#tracks {
+  font-family: skia;
+}
+
 #survey-hidden {
   display: none;
+  font-family: skia;
+  font-size: 20px;
+}
+
+#survey-showing {
+  font-family: skia;
+  font-size: 20px;
+}
+
+.clickable:hover {
+  color: #337ab7;
 }
 
 #program-survey {
+  font-family: skia;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 2px;
+  font-family: skia;
+  padding: 2px;
+}
+
+#result-panel {
   font-family: skia;
   font-size: 20px;
 }
