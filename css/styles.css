@@ -59,6 +59,10 @@ li {
   text-decoration: none;
 }
 
+#survey-hidden {
+  display: none;
+}
+
 #program-survey {
   font-family: skia;
   font-size: 20px;
